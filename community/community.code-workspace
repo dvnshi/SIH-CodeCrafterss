@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../main"
+		},
+		{
+			"path": "../form"
+		},
+		{
+			"path": "../SignUpPge"
+		},
+		{
+			"path": "../sih-gif"
+		},
+		{
+			"path": "../sih-images"
+		},
+		{
+			"path": "../try"
+		}
+	],
+	"settings": {}
+}

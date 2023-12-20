@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Form</title>
+    <link href="./logg.css" rel="stylesheet">
+</head>
+<body>
+
+    <form id="loginForm">
+        <h2>Login</h2>
+        <input type="text" id="loginUsername" placeholder="Username" required>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+
+        <button type="button" onclick="login()">Login</button>
+        <div class="message" id="loginMessage"></div>
+        <p class="toggle-link" onclick="toggleForm('signupForm')">Don't have an account, register now!!!</p>
+        <a href="../main/main.html" id="homeButton"><button type="button">Home page</button></a>
+    </form>
+
+    <form id="signupForm">
+        <h2>Signup</h2>
+        <select id="userType" required>
+            <option  value="" disabled selected>Select user type</option>
+            <option value="student">Student</option>
+            <option value="government">Government</option>
+            <option value="parent">Parent</option>
+            <option value="legalexpert">Legal Expert</option>
+        </select>
+        <input type="text" id="signupUsername" placeholder="Username" required>
+        <input type="password" id="signupPassword" placeholder="Password" required>
+        <input type="text" id="age" placeholder="Age" required>
+        <input type="text" id="schoolName" placeholder="School name" required>
+        <button type="button" onclick="signup()">Signup</button>
+        <div class="message" id="signupMessage"></div>
+        <p class="toggle-link" onclick="toggleForm('loginForm')">Login Now</p>
+    </form>
+<div class="big_container">
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>  
+    </div>
+  <script src="./logg.js"></script>
+
+</body>
+</html>
